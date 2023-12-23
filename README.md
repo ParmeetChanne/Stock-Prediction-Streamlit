@@ -11,15 +11,23 @@ The Streamlit Stock Forecast App is a web-based application built using Streamli
 
 ### 2. Prediction Period Selection
 - A slider allows users to select the number of years they wish to forecast the stock prices for.
+  ![image](https://github.com/ParmeetChanne/Stock-Prediction-Streamlit/assets/67189839/1063cfff-a41b-43d7-9feb-c904a75de355)
+
 
 ### 3. Data Visualization
 - The app displays the raw historical stock data for the selected stock, presenting the 'Open' and 'Close' values over time.
+  ![image](https://github.com/ParmeetChanne/Stock-Prediction-Streamlit/assets/67189839/8b5f0667-c875-4f1f-a23c-1c864422adc4)
+
 
 ### 4. Stock Price Forecasting
 - Utilizing the Prophet library, the app trains a forecasting model on the historical stock data and generates future predictions for the selected stock's closing prices.
 
 ### 5. Forecast Visualizations
 - Users can view the forecasted stock prices for the chosen number of years, presented in an interactive Plotly chart, displaying the predicted trend.
+  ![image](https://github.com/ParmeetChanne/Stock-Prediction-Streamlit/assets/67189839/40ac1d37-d129-405c-8476-8a3622da30ff)
+  ![image](https://github.com/ParmeetChanne/Stock-Prediction-Streamlit/assets/67189839/39a3413d-a6d3-4a48-8e18-358cda0358df)
+
+
 
 ### 6. Forecast Components
 - The application showcases the individual components contributing to the forecast, enabling users to analyze the trend and seasonal patterns.
